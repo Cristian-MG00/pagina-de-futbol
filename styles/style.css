@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: sans-serif;
+}
+
+p,
+a,
+li,
+th,
+td {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+section {
+  background-color: azure;
+  margin: 30px;
+}
+
+/* estilos de la barra de navegacion */
+nav {
+  background-color: gray;
+  padding: 15px;
+}
+
+nav ul {
+  background-color: gray;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: white;
+  background-color: gray;
+}
+
+nav ul li a:hover {
+  color: aqua;
+}
+
+header h1 {
+  text-align: center;
+}
+
+/* section inicio */
+
+#inicio h1,
+#inicio h2 {
+  text-align: center;
+}
+
+#inicio img {
+  display: block;
+  width: 800px;
+  margin: 30px auto;
+}
+
+/* section tabla */
+
+#tabla {
+  background-color: rgb(187, 181, 181);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#tabla h3 {
+  background-color: rgb(187, 181, 181);
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 2px solid blue;
+  background-color: white;
+}
+
+table {
+  margin: 0 auto;
+  width: 500px;
+}
+
+/* section form */
+#form {
+  background-color: lavender;
+}
+
+#form h3 {
+  font-size: 23px;
+}
+
+#form h4 {
+  font-size: 20px;
+}
