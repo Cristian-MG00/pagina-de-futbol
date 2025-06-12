@@ -102,3 +102,9 @@ table {
 #form h4 {
   font-size: 20px;
 }
+
+#form button {
+  background-color: yellowgreen;
+  padding: 8px;
+  border-radius: 5px;
+}
